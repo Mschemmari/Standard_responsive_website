@@ -1,0 +1,85 @@
+/*PRODUCTOS*/
+
+.site_breadcrumbs{color: #fff; background-color: #104364; margin-bottom: 30px; }
+.breadcrumbs {margin-top: 35px; }
+
+.product_description h4{margin-top: 0px; font-weight: bold; color: #1b3e5b; }
+.product_description p{font-weight: normal; }
+.product_description span {font-weight: bold; }
+.producto_btn_pdf{color:#1b3e5b; background-color: #f8d10b; padding: 15px; display: inline-block; margin-top: 11px; }
+.producto_btn_pdf span {color:white; padding: 5px; }
+
+/* divisor productos */
+.divisor_descripcion{background-color: #ecf5fb; margin-top:30px; border-left:3px solid #f8d10b;}
+.divisor_descripcion p {padding: 20px 35px 23px; color:#1b3e5b;}
+.relacionados img {margin-top: 30px;}
+#myCarousel .carousel-control.right, .carousel-control.left{background: transparent; }
+
+/*LA EMPRESA*/
+.empresa {margin-bottom: 30px;}
+.empresa p { color:#1b3e5b; font-weight: bold;    font-size: 16px;}
+.filosofia {color:white; background-color: #080c1f; padding-bottom: 30px; }
+.filosofia ul {
+        margin-left: -25px;
+}
+.filosofia_intro_text{ margin-top: 30px;}
+.fix_img_xs_sm{margin: auto;}
+.filosofia_intro_text span{    color: white; font-size: 44px;}
+.filosofia .title_default span {color:white !important;}
+.panel-desplegables2 {margin-top: 20px; margin-bottom: 30px;}
+.panel-desplegables {margin-top: 50px;}
+.panel-desplegables .panel-default>.panel-heading+.panel-collapse>.panel-body,.panel-desplegables2 .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border: 2px solid #104364 !important;
+    border-top: none !important;
+    border-radius: 0 !important;
+
+}
+.panel-desplegables .panel-default {border-color: transparent; }
+
+.panel-desplegables .collapse.in {
+    margin-top: -1px;
+}
+.panel-desplegables2 h4 {color:#1b3e5b; font-weight: bold;}
+.panel-desplegables2 .panel {background-color: transparent;}
+.panel-desplegables .panel, .panel-desplegables2 .panel {border:none;}
+.panel-desplegables .panel-default>.panel-heading, .panel-desplegables2 .panel-default>.panel-heading {
+    border: 2px solid #104364;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    color: #6E6E6E;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2px;
+    border-bottom-radius:none;
+    background-color: transparent;
+
+}
+
+/*preguntas frecuentes empresa*/
+.frecuentes {background-color: #bac5cd;}
+
+/*FOOTER*/
+.footer {background-color: #656565; color: white; }
+.footer_row {margin-top: 30px; margin-bottom: 30px;}
+.footer a {color:white;}
+.footer h4 {border-bottom:1px dotted #e6e9ee;     margin-top: 5px; height: 31px;}
+.footer h4>span:after {content: ""; position: absolute; left: 15px; right: 0; top: 29px; height: 3px; background-color: #f8d10b; width: 120px; margin-top: 5px;}
+
+/*SOCIAL*/
+.social {margin-bottom: 30px;}
+.social img {margin-right: 20px;}
+.social a:nth-child(3) {margin-top: 5px;}
+
+/*CONTACTOS*/
+.direccion_contacto {color: #1b3e5b; font-size: 15px; text-align: center; margin-top: 30px; margin-bottom: 20px;}
+.sidebar_contacto ul>li>a{color:#1b3e5b;}
+.sidebar_contacto ul>li>span {font-size: 10px; font-weight: thin;}
+.sidebar_contacto ul>li{color:#1b3e5b;    padding: 10px; background-color: #bac5cd; margin-top: 5px; font-weight: bold;}
+.sidebar_contacto ul>.active {background-color: #1b3e5b !important; color:white !important;}
+.sidebar_contacto .active a {color:white !important;}
+.sidebar_contacto .title_default{font-size: 17px; font-weight: bold;}
+.form .form-control {border-radius: 0px !important;}
+.form .input-group-addon:last-child {border-radius: 0px; background-color: #1b3e5b; color: white;}
+.form label {color:#1b3e5b; margin: 5px 20px;}
+.btn_contact_form .btn-default{margin-top: 20px; border-radius: 0px !important; padding: 8px 45px; background-color: #f8d10b; border: none;}

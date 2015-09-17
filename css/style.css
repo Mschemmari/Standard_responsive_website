@@ -1,0 +1,520 @@
+/* General */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.category{ padding-left: 15px; font-size: 1.2em; color: #000000;}
+.category-child{padding-left: 15px; color: #000000;}
+
+.img-responsive-center .img-responsive {
+    margin: 0 auto;
+}
+
+.btn-dark-blue {
+    display: block;
+    background-color: #1b3e5b;
+    color: white;
+    border-radius: 0px;
+    border-color: #1b3e5b;
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.btn-dark-blue span {
+    color: #f8d10b;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn-dark-blue:focus, .btn-dark-blue:hover {
+    outline: none;
+    background-color: #1b3e5b;
+    border-color: #1b3e5b;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: #f8d10b;
+    color: white;
+    text-transform: uppercase;
+    border: 0px !important;
+    box-shadow: 0px !important;
+    border-radius: 0px !important;
+    font-size: 18px;
+    padding: 10px 40px;
+}
+
+.btn-yellow:focus, .btn-yellow:hover {
+    outline: none;
+    background-color: #f8d10b;
+    color: white;
+}
+
+.common-title {
+    border-bottom: 2px solid #f8d10b;
+    color: #1b3e5b;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.common-subtitle {
+    color: #1b3e5b;
+    font-weight: bold;
+}
+.title_default span{border-bottom:3px solid #f8d10b; color:#1b3e5b;}
+.title_default {color:#1b3e5b;}
+
+/* #header */
+#header { position: relative;}
+#header .pull-right { padding: 13px 0px 10px }
+/*slider*/
+.slide-bg {
+    background-image: url(../images/slider-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #menu */
+.navbar-custom {
+    background-color: #bac5cd;
+    border-color: #bac5cd;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 0px;
+}
+
+.navbar-custom .navbar-brand { color: #474c4e }
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus { color: #474c4e }
+
+.navbar-custom .navbar-text { color: #474c4e }
+
+.navbar-custom .navbar-nav > li > a {
+    color: #474c4e;
+    position: relative;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #474c4e;
+    background-color: #bac5cd;
+}
+
+.navbar-custom .navbar-nav > li > a:hover:after,
+.navbar-custom .navbar-nav > li > a:focus:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    height: 3px;
+    background-color: #104364;
+    width: 100%;
+}
+
+.navbar-custom .navbar-nav > li > .dropdown-menu {
+    background-color: #b9b9b9;
+    border-radius: 0px;
+    box-shadow: none;
+    border: 0px;
+}
+
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a { color: #474c4e }
+
+.navbar-custom .dropdown-menu .important a, .navbar-custom .dropdown-menu .important a:focus, .navbar-custom .dropdown-menu .important a:hover {
+    background-color: transparent !important;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > a:focus {
+    color: #474c4e;
+    background-color: #b9b9b9;
+}
+
+.navbar-custom .navbar-nav > li > .dropdown-menu > li > .divider {    background-color: #b9b9b9 }
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #474c4e;
+    background-color: #bac5cd;
+}
+
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+    color: #474c4e;
+    background-color: #bac5cd;
+}
+
+.navbar-custom .navbar-toggle { border-color: #bac5cd }
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus { background-color: #bac5cd }
+.navbar-custom .navbar-toggle .icon-bar { background-color: #474c4e }
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form { border-color: #474c4e }
+.navbar-custom .navbar-link { color: #474c4e }
+.navbar-custom .navbar-link:hover { color: #474c4e }
+
+/* #mega-menu */
+#mega-menu {position: absolute;top: 0px;left: 0px;right: 0px;z-index: 100; display:none;/*max-width:1117px*/}
+#mega-menu .mega-menu-background {background-color: #b9b9b9; padding: 20px 0;}
+.multi-column-dropdown { max-width: 992px; width: 100%; }
+.multi-column-dropdown li a {padding: 5px 15px; font-weight: 300; }
+.multi-column-dropdown { list-style: none; margin: 0; padding:0; font-size: 12px;}
+
+.multi-column-dropdown  .important a,
+.multi-column-dropdown  .important a:focus ,
+.multi-column-dropdown  .important a:hover {
+    background-color: #b9b9b9;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.multi-column-dropdown  a {
+    font-weight: normal !important;
+    text-transform: uppercase;
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    white-space: normal;
+    color: #7b8387;
+}
+
+.multi-column-dropdown  a:hover,
+.multi-column-dropdown  a:focus {
+    background-color: #b9b9b9 !important;
+    color: #7b8387;
+}
+
+.multi-column-dropdown  .active a {
+    background-color: #f8d10b !important;
+    color: #104364 !important;
+}
+
+.search-form {
+    margin: 0px;
+}
+
+.search-submit {
+    background-color: #f8d10b !important;
+    color:#fff !important;
+    font-weight: bold !important;
+    border-radius: 0px;
+    line-height: 36px;
+}
+
+.search-input {
+    border-radius: 0px;
+    padding: 20px inherit;
+    height: 49px;
+    margin-top: 0px !important;
+    line-height: 49px;
+}
+
+/*BARRA NOVEDADES */
+.home-buttons {
+    margin-top:30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.home-buttons .input-group-addon {
+    background-color: white;
+    color:#1b3e5b;
+    font-weight: bold;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    box-shadow: none !important;
+}
+
+.home-buttons .form-suscription-input  {
+    border-left: 0px;
+    line-height: 46px;
+    height: 46px;
+    font-size: 14px;
+    box-shadow: none !important;
+}
+
+.home-buttons .form-suscription-input:hover, .home-buttons .form-suscription-input:focus {
+    box-shadow: none !important;
+    border-color: #1b3e5b;
+}
+
+.home-buttons .btn-suscription {
+    background-color: #1b3e5b;
+    color: white;
+    border: 0px;
+    padding: 6px 13px;
+    font-size: 24px;
+    line-height: 34px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.home-buttons .btn-suscription:hover, .home-buttons .btn-suscription:focus {
+    background-color: #1b3e5b;
+    outline: none;
+}
+
+.home-buttons .input-group-addon,
+.home-buttons .form-suscription-input  {
+    border-color:#1b3e5b;
+    border-width: 2px;
+}
+.home-buttons-button .btn-dark-blue {
+    margin-left: 40px;
+}
+
+
+/* CALCULADORA */
+#home-calc {
+    background-color: #8d9ead;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#home-calc .common-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#home-calc .form-control,
+#home-calc .input-group-addon {
+    border: 0px !important;
+    border-radius: 0px;
+    box-shadow: none;
+    height: 47px;
+}
+
+#home-calc .input-group-addon {
+    background-color: #1b3e5b;
+    color: white;
+}
+
+#home-calc label {
+    margin-left: 40px;
+    font-weight: normal;
+    color: #333;
+}
+
+#home-calc .calc-result {
+    background-color: #ddd;
+    color: #1b3e5b;
+    text-align: center;
+    padding: 20px;
+}
+
+#home-calc .calc-result-title {width: 100%; display:block; clear:both;}
+#home-calc .calc-result hr {border-color: #1b3e5b;margin-left:20px;margin-right: 20px;}
+#home-calc .calc-result-value {width: 100%; display:block; clear:both;font-size:120%;}
+#home-calc .calc-result-final {font-size:35px;}
+
+
+/* VEHICULOS INSTALADOS */
+#vehicle-page {}
+
+#vehicle-page .brands-list {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#vehicle-page .brands-list > li  {
+    margin: 0 0 10px 0;
+}
+
+#vehicle-page .brands-list > li > a {
+    border: 2px solid #104364;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    color: #6E6E6E;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+#vehicle-page .brands-list > li > a > .glyphicon {
+    line-height: 21px;
+    float: right;
+    color: #104364;
+    padding-right: 3px;
+}
+
+#vehicle-page .brands-list > li > a > .glyphicon-menu-up {
+    display: none;
+}
+
+#vehicle-page .brands-list > li.opened > a > .glyphicon-menu-down {
+    display: none;
+}
+
+#vehicle-page .brands-list > li.opened > a > .glyphicon-menu-up {
+    display: block;
+}
+
+#vehicle-page .brands-dropdown {
+    list-style: none;
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-left: 2px solid #104364;
+    border-bottom: 2px solid #104364;
+    border-right: 2px solid #104364;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#vehicle-page .brands-dropdown > li > a {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: block;
+    width: 100%;
+    color: #104364;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#vehicle-page  .opened .brands-dropdown {
+    display: block;
+}
+
+#vehicle-page .brands-list > li.opened > a {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#vehicle-page .product-description {
+    margin-top: 120px;
+}
+
+#vehicle-page .brand-subtitle {margin-top: 0px;}
+
+
+#thumbnail-slider .carousel-control.right, #thumbnail-slider .carousel-control.left {
+    background-image: none;
+    line-height: 120px;
+    color: black;
+    z-index: 12;
+    font-size: 50px;
+    background-color: transparent;
+    text-shadow: none;
+}
+
+#thumbnail-slider .carousel-control.right span, #thumbnail-slider .carousel-control.left span {
+}
+
+#imagepreview-close {
+    position: absolute;
+    color: white;
+    right: -32px;
+    top: 0px;
+    background-color: red;
+    font-weight: bold;
+    opacity: 1;
+    padding: 5px 10px;
+}
+
+.css-form input.ng-invalid.ng-touched {
+    background-color: red;
+  }
+
+.css-form input.ng-valid.ng-touched {
+    background-color: #61BB46;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+    .col-xs-fix {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .col-xs-fix {
+        margin-right: 0px;
+        padding-right: 0px;
+        padding-top: 5px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .home-buttons-suscription {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .home-buttons-button {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .home-buttons-button .btn-dark-blue {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .brand-subtitle {margin-top: 60px;}
+
+    #vehicle-page .product-subtitle {margin-bottom: 20px!important}
+    #vehicle-page .product-description {margin-top: 0px;}
+
+}
+
+@media (max-width: 767px) {
+
+    .col-xs-fix {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .category{font-size: 1em; color: #000000; margin-top: 15px}
+    .category-child{color: #000000;}
+    .item{padding-left: 15px;}
+
+    .item, .navbar-custom .navbar-nav .open .dropdown-menu > li > a { color: #474c4e }
+    .item:hover, .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+    .item:focus, .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus { color: #ffffff }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffffff;
+        background-color: #bac5cd;
+    }
+
+    #mega-menu {
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .navbar-custom .navbar-nav > li > a:hover:after,
+    .navbar-custom .navbar-nav > li > a:focus:after {
+        display: none;
+    }
+    .product_description { padding-top: 40px;}
+
+}
+
+@media (max-width: 480px) {
+}
